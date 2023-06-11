@@ -2,8 +2,8 @@
 import os
 import glob
 from typing import List
-from dotenv import load_dotenv
 from multiprocessing import Pool
+from dotenv import load_dotenv
 from tqdm import tqdm
 
 from langchain.document_loaders import (
